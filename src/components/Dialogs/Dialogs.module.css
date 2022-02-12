@@ -1,0 +1,33 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialogsItem{
+    border-right: 2px outset dodgerblue;
+    padding: 20px;
+
+}
+.dialogsItem img{
+    width: 50px;
+}
+.messages {
+    margin-top: 50px;
+    margin-left: 220px;
+}
+.active{
+    color: darkgrey;
+    text-decoration: none;
+}
+.item{
+    color: black;
+    text-decoration: none;
+}
+
+.newMessage{
+
+    margin-top: 20px;
+}
+.button{
+    margin-top: 10px;
+    margin-left: 50px;
+}
